@@ -1,0 +1,63 @@
+.header {
+  background-color: var(--clr-grey);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.header__name__link {
+  color: var(--clr-black);
+}
+
+.header__name {
+  font-family: var(--ff-montserrat);
+  font-size: var(--fs-medium);
+}
+
+.header__name:before {
+  aspect-ratio: 1;
+  background-image: url(../../img/icons/codes.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  content: "";
+  display: inline-block;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  width: 24px;
+}
+
+.header__navigation,
+.header__list {
+  display: contents;
+}
+
+.header__list {
+  list-style-type: none;
+}
+
+.header__list__link {
+  color: var(--clr-black);
+  font-size: var(--fs-normal);
+  text-transform: lowercase;
+}
+
+.header__btn {
+  background-color: var(--clr-primary);
+  border: none;
+  box-shadow: 5px 5px 0px var(--clr-black);
+  cursor: pointer;
+  font-family: var(--ff-montserrat);
+  font-size: var(--fs-normal);
+  font-weight: var(--fw-bold);
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+}
+
+.header__btn:hover {
+  background-color: var(--clr-secondary);
+}
+
+.header__btn:active {
+  transform: scale(0.98);
+  box-shadow: 1px 1px 3px var(--clr-black);
+}
