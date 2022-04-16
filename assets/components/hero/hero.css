@@ -1,21 +1,14 @@
 .hero {
-  position: relative;
-  height: calc(100vh - 84px);
+  background-color: var(--clr-warm);
+  border-bottom: 3px solid var(--clr-darkpurple);
+  font-family: var(--ff-montserrat);
+  padding: 2rem 1rem;
 }
 
-.hero__box {
-  background-color: var(--clr-secondary);
-  text-align: center;
-  position: absolute;
-  top: 20%;
-  left: 10%;
-  max-width: 630px;
+.hero__box__call {
+  font-size: var(--fs-normal);
 }
 
 .hero__box__title {
-  font-family: var(--ff-montserrat);
-}
-
-.hero__box__subtitle {
-  font-size: var(--fs-normal);
+  font-size: var(--fs-large);
 }
