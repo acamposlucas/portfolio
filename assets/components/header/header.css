@@ -4,10 +4,6 @@
   padding-bottom: 1rem;
 }
 
-.header__name__link {
-  color: var(--clr-black);
-}
-
 .header__name {
   font-family: var(--ff-montserrat);
   font-size: var(--fs-medium);
@@ -24,21 +20,6 @@
   margin-right: 0.5rem;
   vertical-align: middle;
   width: 24px;
-}
-
-.header__navigation,
-.header__list {
-  display: contents;
-}
-
-.header__list {
-  list-style-type: none;
-}
-
-.header__list__link {
-  color: var(--clr-black);
-  font-size: var(--fs-normal);
-  text-transform: lowercase;
 }
 
 .header__btn {

@@ -15,38 +15,57 @@
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/base.css" />
     <link rel="stylesheet" href="assets/components/header/header.css" />
+    <link rel="stylesheet" href="assets/components//header/main-header.css">
+    <link rel="stylesheet" href="assets/components/hero/hero.css" />
+    <link
+      rel="stylesheet"
+      href="assets/components/navigation-bar/nav-button.css"
+    />
+    <link rel="stylesheet" href="assets/components/navigation-bar/nav.css" />
     <link rel="stylesheet" href="assets/css/flex.css" />
     <title>Lucas Almeida</title>
   </head>
   <body>
     <header>
-      <div
-        class="container header flex-set flex--align-items-center flex--content-between"
-      >
-        <a class="header__name__link" href="#"
-          ><span class="header__name">Lucas Almeida</span></a
-        >
+      <div class="main-header">
+        <h1>Lucas</h1>
 
-        <div class="flex-set flex--align-items-center flex--gap-1rem">
-          <nav class="header__navigation">
-            <ul class="header__list">
-              <li class="header__list__item">
-                <a href="#" class="header__list__link">Skills</a>
-              </li>
-              <li class="header__list__item">
-                <a href="#" class="header__list__link">Projetos</a>
-              </li>
-              <li class="header__list__item">
-                <a href="#" class="header__list__link">Sobre mim</a>
-              </li>
-              <li class="header__list__item">
-                <a href="#" class="header__list__link">Contato</a>
-              </li>
-            </ul>
-          </nav>
-          <button class="header__btn">Download CV</button>
-        </div>
+        <button
+          class="mobile-nav-toggle"
+          aria-controls="main-nav"
+          aria-expanded="false"
+        >
+          <span class="visibility">Menu</span>
+        </button>
+        <nav>
+          <ul class="main-nav" data-visible="false">
+            <li class="header__list__item">
+              <a href="#" class="header__list__link">Skills</a>
+            </li>
+            <li class="header__list__item">
+              <a href="#" class="header__list__link">Projetos</a>
+            </li>
+            <li class="header__list__item">
+              <a href="#" class="header__list__link">Sobre</a>
+            </li>
+            <li class="header__list__item">
+              <a href="#" class="header__list__link">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       </div>
     </header>
+
+    <main>
+      <div class="hero">
+        <div class="hero__box">
+          <h1 class="hero__box__title">Lucas Almeida</h1>
+          <span class="hero__box__subtitle">Frontend Developer</span>
+        </div>
+      </div>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>

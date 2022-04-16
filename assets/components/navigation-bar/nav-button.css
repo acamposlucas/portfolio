@@ -1,0 +1,11 @@
+.btn__nav {
+  aspect-ratio: 1;
+  background-color: transparent;
+  background-image: url(../../icons/icon-hamburger.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border: none;
+  color: var(--clr-black);
+  width: 24px;
+}
