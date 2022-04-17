@@ -1,0 +1,34 @@
+.projetos {
+  background-color: var(--clr-warm);
+  border-bottom: 3px solid var(--clr-darkpurple);
+  padding: 1rem;
+}
+
+.projetos__header {
+  text-align: center;
+}
+
+.projetos__title {
+  font-family: var(--ff-montserrat);
+  font-size: var(--fs-medium);
+  text-transform: uppercase;
+}
+
+.projects__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style-type: none;
+  text-align: center;
+}
+
+.projects__list a {
+  text-decoration: none;
+  font-size: var(--fs-normal);
+  font-family: var(--ff-montserrat);
+  color: var(--clr-black);
+}
+
+.projects__list img {
+  border-radius: 16px;
+}
