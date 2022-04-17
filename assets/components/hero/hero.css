@@ -1,7 +1,12 @@
+@import url(hero-btn.css);
+
 .hero {
   background-color: var(--clr-warm);
   border-bottom: 3px solid var(--clr-darkpurple);
+  display: flex;
+  flex-direction: column;
   font-family: var(--ff-montserrat);
+  gap: 1rem;
   padding: 2rem 1rem;
 }
 

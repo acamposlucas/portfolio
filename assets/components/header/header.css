@@ -21,24 +21,3 @@
   vertical-align: middle;
   width: 24px;
 }
-
-.header__btn {
-  background-color: var(--clr-primary);
-  border: none;
-  box-shadow: 5px 5px 0px var(--clr-black);
-  cursor: pointer;
-  font-family: var(--ff-montserrat);
-  font-size: var(--fs-normal);
-  font-weight: var(--fw-bold);
-  padding: 0.5rem 1rem;
-  text-transform: uppercase;
-}
-
-.header__btn:hover {
-  background-color: var(--clr-secondary);
-}
-
-.header__btn:active {
-  transform: scale(0.98);
-  box-shadow: 1px 1px 3px var(--clr-black);
-}

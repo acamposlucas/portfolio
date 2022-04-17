@@ -1,12 +1,12 @@
 :root {
-  --clr-primary: rgb(8, 217, 214);
-  --clr-secondary: rgb(255, 46, 99);
   --clr-black: rgb(37, 42, 52);
-  --clr-grey: rgb(234, 234, 234);
-  --clr-warm: rgb(255, 201, 150);
-  --clr-orange: rgb(255, 132, 116);
-  --clr-purple: rgb(159, 95, 128);
+  --clr-cyan: rgb(8, 217, 214);
   --clr-darkpurple: rgb(88, 61, 114);
+  --clr-grey: rgb(234, 234, 234);
+  --clr-orange: rgb(255, 132, 116);
+  --clr-pink: rgb(255, 46, 99);
+  --clr-purple: rgb(159, 95, 128);
+  --clr-warm: rgb(255, 201, 150);
 
   --fs-large: 3.75rem;
   --fs-medium: 1.75rem;
