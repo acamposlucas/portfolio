@@ -3,12 +3,12 @@ import { Projects } from "../components/Projects";
 
 export const Home = () => {
 	return (
-		<div className="w-11/12 max-w-7xl mx-auto my-32">
-			<div className="grid grid-cols-1 gap-4 lg:grid-cols-12 ">
-				<div className="lg:col-span-4">
+		<div className="w-11/12 max-w-[1440px] mx-auto my-32">
+			<div className="grid grid-cols-1 gap-4 xl:grid-cols-12 ">
+				<div className="xl:col-span-3">
 					<ProfileCard />
 				</div>
-				<main className="lg:col-span-8">
+				<main className="xl:col-span-8">
 					<Projects />
 				</main>
 			</div>
