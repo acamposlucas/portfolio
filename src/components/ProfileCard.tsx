@@ -2,13 +2,13 @@ import { LinkedinLogo, GithubLogo } from "phosphor-react";
 
 export const ProfileCard = () => {
 	return (
-		<div className="flex flex-col w-full gap-4 items-center bg-slate-300 text-zinc-900 opacity-75 rounded-lg py-4">
+		<div className="flex flex-col w-full gap-4 items-center bg-slate-800 text-zinc-100 rounded-lg py-4">
 			<img
 				className="w-48 h-48 rounded-full -mt-10"
 				src="https://github.com/acamposlucas.png"
 				alt="Lucas"
 			/>
-			<div className="flex flex-col gap-2 items-center w-4/5 after:h-0.5 after:w-full after:block after:bg-slate-900 after:opacity-50">
+			<div className="flex flex-col gap-2 items-center w-4/5 after:h-0.5 after:w-full after:block after:bg-slate-100 after:opacity-50">
 				<h1 className="text-2xl font-bold font-heading">Lucas Almeida</h1>
 				<strong className="font-normal">Software Engineer</strong>
 				<p className="text-center">
