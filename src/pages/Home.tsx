@@ -1,3 +1,4 @@
+import { Blog } from "../components/Blog";
 import { ProfileCard } from "../components/ProfileCard";
 import { Projects } from "../components/Projects";
 
@@ -8,8 +9,9 @@ export const Home = () => {
 				<div className="xl:col-span-3">
 					<ProfileCard />
 				</div>
-				<main className="xl:col-span-8">
+				<main className="flex flex-col gap-4 xl:col-span-8">
 					<Projects />
+					<Blog />
 				</main>
 			</div>
 		</div>
